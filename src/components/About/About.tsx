@@ -1,7 +1,8 @@
+//DATA
 const aboutItems = [
   {
     label: 'Projetos',
-    string: '5+',
+    string: '7+',
   },
   {
     label: 'Médio Técnico na FIAP',
