@@ -105,7 +105,7 @@ const Skill = () => {
   return (
     <section className='pt-28 lg:pt-32 max-w-[1100px] mx-auto'>
       <div className='max-lg:mx-4'>
-        <h2 className='bg-gradient-to-r from-[#dfdddd] to-[#a1a1aa] bg-clip-text text-transparent text-3xl lg:text-4xl lg:leading-tight font-bold'>
+        <h2 className='bg-gradient-to-r from-[#dfdddd] to-[#58585e] bg-clip-text text-transparent text-3xl lg:text-4xl lg:leading-tight font-bold'>
           Tecnologias & Tools
         </h2>
         <p className='text-zinc-400 mt-3 mb-8 max-w-[50ch]'>

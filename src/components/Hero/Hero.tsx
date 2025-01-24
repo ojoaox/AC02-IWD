@@ -26,7 +26,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h2 className=' my-8 bg-gradient-to-r from-[#fafafa] to-[#a1a1aa] bg-clip-text text-transparent text-5xl leading-tight font-semibold lg:text-[45px] lg:leading-[1.15] sm:max-w-[20ch] max-w-[15ch] lg:max-w-[15ch]' >
+          <h2 className=' my-8 bg-gradient-to-r from-[#fafafa] to-[#58585e] bg-clip-text text-transparent text-5xl leading-tight font-semibold lg:text-[45px] lg:leading-[1.15] sm:max-w-[20ch] max-w-[15ch] lg:max-w-[15ch]' >
           -- Desenvolvedor Back-End | Front-End 
           </h2>
 

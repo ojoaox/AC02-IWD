@@ -13,7 +13,7 @@ const aboutItems = [
 const About = () => {
   return (
     <section id='about' className='pt-20 flex justify-center items-center'>
-      <div className='container mx-2'>
+      <div className='container mx-4'>
         <div className='bg-zinc-800/50 p-7 rounded-md md:p-12 max-w-[1100px] mx-auto '>
           <p className='text-zinc-300 mb-8 md:mb-12 md:text-lg md:max-w-[60ch]'>
             Mais de 1 ano sempre aprendendo e criando projetos para aprimorar
