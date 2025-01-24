@@ -22,7 +22,7 @@ const ProjectCard = ({
           src={imgSrc}
           alt={title}
           loading='lazy'
-          className='rounded-lg w-[350px] h-[300px]'
+          className='rounded-lg w-full h-[300px]'
         />
       </figure>
 
