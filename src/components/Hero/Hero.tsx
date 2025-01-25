@@ -35,7 +35,7 @@ const Hero = () => {
               label='Download CV'
               href={Curriculo}
               icon={<RiDownloadFill />}
-              classes=' flex items-center gap-2 text-[14px] has:pr-3 h-11 px-5 bg-sky-400 text-zinc-950 hover:bg-sky-300 transition-all duration-200 active:bg-sky-400 rounded-md font-medium'
+              classes=' flex items-center gap-2 text-[14px] has:pr-3 h-11 px-5 bg-sky-800 text-zinc-50 hover:bg-sky-600 transition-all duration-200 active:bg-sky-400 rounded-md font-medium'
             />
             <ButtonPrimary
               label='Scroll down'

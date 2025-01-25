@@ -43,7 +43,7 @@ const Footer = () => {
       <div className='max-lg:mx-4'>
         <div className='lg:grid lg:grid-cols-2'>
           <div className='mb-10'>
-            <h2 className='mb-8 bg-gradient-to-r from-[#dfdddd] to-[#58585e] bg-clip-text text-transparent text-3xl lg:text-4xl lg:leading-tight font-bold'>
+            <h2 className='mb-8 bg-gradient-to-r from-[#dfdddd] to-[#58585e] bg-clip-text text-transparent text-4xl lg:text-5xl lg:leading-tight font-bold'>
               Infos & Sitemap
             </h2>
 

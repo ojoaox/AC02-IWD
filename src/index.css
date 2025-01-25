@@ -12,4 +12,6 @@
 html {
   scroll-behavior: smooth;
 }
-
+.reveal-up {
+  @apply relative translate-y-20 opacity-0
+}
