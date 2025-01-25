@@ -5,7 +5,6 @@ interface NavItem {
   label: string;
   link: string;
   className: string;
-  ref?: React.RefObject<HTMLAnchorElement>;
 }
 
 const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
@@ -24,13 +23,12 @@ const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
   };
 
   const activeCurrentLink = (event: React.MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
+    const target = event.target as HTMLAnchorElement;
 
     if (lastActiveLink.current) {
       lastActiveLink.current.classList.remove('active');
     }
 
-    const target = event.target as HTMLAnchorElement;
     target.classList.add('active');
     lastActiveLink.current = target;
 
@@ -58,32 +56,15 @@ const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
   }, []);
 
   const navItems: NavItem[] = [
-    {
-      label: 'Home',
-      link: '#home',
-      className: 'nav-link active',
-      ref: lastActiveLink,
-    },
-    {
-      label: 'Sobre',
-      link: '#about',
-      className: 'nav-link',
-    },
-    {
-      label: 'Projetos',
-      link: '#work',
-      className: 'nav-link',
-    },
-    {
-      label: 'Contato',
-      link: '#contact',
-      className: 'nav-link md:hidden',
-    },
+    { label: 'Home', link: '#home', className: 'nav-link active' },
+    { label: 'Sobre', link: '#about', className: 'nav-link' },
+    { label: 'Projetos', link: '#work', className: 'nav-link' },
+    { label: 'Contato', link: '#contact', className: 'nav-link md:hidden' },
   ];
 
   return (
     <nav
-      className={`absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 rounded-md ring-inset ring-1 ring-zinc-50/5 transition-transform transform md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible ${
+      className={`absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-800 rounded-md ring-inset ring-1 ring-zinc-50/5 transition-transform transform md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible ${
         navOpen
           ? 'opacity-100 scale-100 visible'
           : 'opacity-0 scale-90 invisible'
@@ -104,7 +85,7 @@ const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
         ))}
       </ul>
       <div
-        className='active-box absolute  bg-zinc-700 -z-10 h-9 transition-[top,left,width,height] duration-500 rounded-md text-black'
+        className='active-box absolute bg-zinc-700 -z-10 h-9 transition-[top,left,width,height] duration-500 rounded-md text-black'
         ref={activeBox}
       ></div>
     </nav>

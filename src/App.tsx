@@ -1,3 +1,6 @@
+//SCROLL
+import { ReactLenis } from 'lenis/react';
+
 // COMPONENTS
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
@@ -9,7 +12,7 @@ import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
-    <>
+    <ReactLenis root>
       <Header />
       <main>
         <Hero />
@@ -19,7 +22,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-    </>
+    </ReactLenis>
   );
 };
 

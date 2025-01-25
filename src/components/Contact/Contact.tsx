@@ -69,7 +69,7 @@ const Contact = () => {
       <div className='lg:grid lg:grid-cols-2 lg:items-stretch max-lg:mx-4'>
         <div className='mb-12 lg:mb-0 lg:flex lg:flex-col'>
           <h2 className='mb-4 bg-gradient-to-r from-[#dfdddd] to-[#797981] bg-clip-text text-transparent text-3xl lg:text-4xl lg:leading-tight font-bold '>
-            Redes Sociais & Contato
+            Redes & Contato
           </h2>
           <p className='text-zinc-400 mb-8 max-w-[48ch]'>
             Quer conversar diretamente comigo? Interaja com este formulário que

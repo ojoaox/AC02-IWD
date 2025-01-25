@@ -1,9 +1,9 @@
 //COMPONENT
-import { ButtonPrimary } from "../Button/Button";
-import Curriculo from '../../../public/curriculo/MyProfile.pdf'
+import { ButtonPrimary } from '../Button/Button';
+import Curriculo from '../../../public/curriculo/MyProfile.pdf';
 //ICONS
-import { RiDownloadFill } from "react-icons/ri";
-import { FaArrowDown } from "react-icons/fa";
+import { RiDownloadFill } from 'react-icons/ri';
+import { FaArrowDown } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -26,18 +26,28 @@ const Hero = () => {
             </div>
           </div>
 
-          <h2 className=' my-8 bg-gradient-to-r from-[#fafafa] to-[#58585e] bg-clip-text text-transparent text-5xl leading-tight font-semibold lg:text-[45px] lg:leading-[1.15] sm:max-w-[20ch] max-w-[15ch] lg:max-w-[15ch]' >
-          -- Desenvolvedor Back-End | Front-End 
+          <h2 className=' my-8 bg-gradient-to-r from-[#fafafa] to-[#58585e] bg-clip-text text-transparent text-5xl leading-tight font-semibold lg:text-[45px] lg:leading-[1.15] sm:max-w-[20ch] max-w-[15ch] lg:max-w-[15ch]'>
+            -- Desenvolvedor Back-End | Front-End
           </h2>
 
           <div className='flex gap-3'>
-            <ButtonPrimary label="Download CV" href={Curriculo} icon={<RiDownloadFill />} classes=" flex items-center gap-2 text-[14px] has:pr-3 h-11 px-5 bg-sky-400 text-zinc-950 hover:bg-sky-300 transition-all duration-200 active:bg-sky-400 rounded-md font-medium" />
-            <ButtonPrimary label="Scroll down" href="#about" icon={<FaArrowDown />} classes=" flex items-center gap-2 text-[14px] has:pr-3 h-11 px-5 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 transition-all duration-200 active:bg-zinc-800 rounded-md font-medium" />
+            <ButtonPrimary
+              label='Download CV'
+              href={Curriculo}
+              icon={<RiDownloadFill />}
+              classes=' flex items-center gap-2 text-[14px] has:pr-3 h-11 px-5 bg-sky-400 text-zinc-950 hover:bg-sky-300 transition-all duration-200 active:bg-sky-400 rounded-md font-medium'
+            />
+            <ButtonPrimary
+              label='Scroll down'
+              href='#work'
+              icon={<FaArrowDown />}
+              classes=' flex items-center gap-2 text-[14px] has:pr-3 h-11 px-5 bg-zinc-800 text-zinc-50 hover:bg-zinc-700 transition-all duration-200 active:bg-zinc-800 rounded-md font-medium'
+            />
           </div>
         </div>
 
         <div className='hidden lg:block'>
-          <figure className="w-full max-w-[430px] ml-auto">
+          <figure className='w-full max-w-[430px] ml-auto'>
             <img src='./public/me/me.png' alt='guilherme-img' />
           </figure>
         </div>
