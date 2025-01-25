@@ -1,4 +1,4 @@
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
 interface NavItem {
@@ -10,7 +10,6 @@ interface NavItem {
 const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
   const lastActiveLink = useRef<HTMLAnchorElement | null>(null);
   const activeBox = useRef<HTMLDivElement | null>(null);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const initActivateBox = () => {
     if (lastActiveLink.current && activeBox.current) {
@@ -44,7 +43,6 @@ const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
     initActivateBox();
 
     const handleResize = () => {
-      setWindowWidth(window.innerWidth);
       initActivateBox();
     };
 

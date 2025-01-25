@@ -2,6 +2,8 @@
 import { ButtonPrimary } from '../Button/Button';
 //ICONS
 import { MdKeyboardArrowRight } from 'react-icons/md';
+//IMPORT LOGO
+import logo from '../../../public/logo/logo.svg'
 
 const sitemap = [
   {
@@ -98,7 +100,7 @@ const Footer = () => {
           </p>
           <a href=''>
             <img
-              src='./public/logo/logo.svg'
+              src={logo}
               width={30}
               height={30}
               alt='logo'

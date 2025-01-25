@@ -1,6 +1,9 @@
 //COMPONENT
 import { ButtonPrimary } from '../Button/Button';
 import Curriculo from '../../../public/curriculo/MyProfile.pdf';
+//IMPORT IMG'S
+import img1 from '../../../public/me/me.png'
+import img2 from '../../../public/me/me2.svg'
 //ICONS
 import { RiDownloadFill } from 'react-icons/ri';
 import { FaArrowDown } from 'react-icons/fa';
@@ -13,7 +16,7 @@ const Hero = () => {
           <div className='flex items-center gap-4'>
             <figure className='w-9 h-9'>
               <img
-                src='./public/me/me2.svg'
+                src={img2}
                 alt='guilherme-img'
                 className='rounded-md bg-zinc-700 overflow-hidden w-full h-full object-cover'
               />
@@ -48,7 +51,7 @@ const Hero = () => {
 
         <div className='hidden lg:block'>
           <figure className='w-full max-w-[430px] ml-auto'>
-            <img src='./public/me/me.png' alt='guilherme-img' />
+            <img src={img1} alt='guilherme-img' />
           </figure>
         </div>
       </div>

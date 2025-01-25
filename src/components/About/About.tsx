@@ -1,3 +1,6 @@
+//IMPORT LOGO
+import logo from '../../../public/logo/logo.svg'
+
 //DATA
 const aboutItems = [
   {
@@ -12,7 +15,10 @@ const aboutItems = [
 
 const About = () => {
   return (
-    <section id='about' className='pt-16 max-md:pt-10 flex justify-center items-center'>
+    <section
+      id='about'
+      className='pt-16 max-md:pt-10 flex justify-center items-center'
+    >
       <div className='container mx-4'>
         <div className='bg-zinc-800/50 p-7 rounded-md md:p-12 max-w-[1100px] mx-auto reveal-up'>
           <p className='text-zinc-300 mb-8 md:mb-12 md:text-lg md:max-w-[60ch]'>
@@ -37,7 +43,7 @@ const About = () => {
             <div className='flex justify-center ml-auto'>
               <img
                 className=' md:w-[35px] md:h-[35px]'
-                src='./public/logo/logo.svg'
+                src={logo}
                 alt='logo'
                 width={25}
                 height={25}

@@ -1,6 +1,8 @@
 import { useState } from 'react';
 // COMPONENT
 import Navbar from '../Navbar/Navbar';
+//IMPORT IMG'S
+import logo from '../../../public/logo/logo.svg'
 // ICONS
 import { MdMenu, MdClose } from 'react-icons/md';
 import { BiSolidMessageAltDetail } from 'react-icons/bi';
@@ -14,7 +16,7 @@ const Header = () => {
         <h1>
           <a href='#home'>
             <img
-              src='./public/logo/logo.svg'
+              src={logo}
               alt='logo'
               width={32}
               height={32}
