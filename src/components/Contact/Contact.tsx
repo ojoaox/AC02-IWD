@@ -118,6 +118,22 @@ const Contact = () => {
                 htmlFor='email'
                 className='block text-zinc-200 text-sm font-normal mb-2'
               >
+                Sobrenome
+              </label>
+              <input
+                type='text'
+                id='text'
+                name='nickname'
+                autoComplete='family-name'
+                placeholder='Da Silva'
+                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-sky-400 focus:ring-2 placeholder:text-zinc-400'
+              />
+            </div>
+            <div className='mb-4'>
+              <label
+                htmlFor='email'
+                className='block text-zinc-200 text-sm font-normal mb-2'
+              >
                 Email
               </label>
               <input
@@ -130,6 +146,24 @@ const Contact = () => {
                 className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-sky-400 focus:ring-2 placeholder:text-zinc-400'
               />
             </div>
+            <div className='mb-4'>
+              <label
+                htmlFor='email'
+                className='block text-zinc-200 text-sm font-normal mb-2'
+              >
+                Whatsapp
+              </label>
+              <input
+                type='tel'
+                id='tel'
+                name='tel'
+                autoComplete='tel'
+                required
+                placeholder='+5511123456789'
+                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-sky-400 focus:ring-2 placeholder:text-zinc-400'
+              />
+            </div>
+
           </div>
 
           <div className='mb-4'>
