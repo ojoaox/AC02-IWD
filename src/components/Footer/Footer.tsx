@@ -53,7 +53,7 @@ const Footer = () => {
               href='mailto:grigobello@proton.me'
               label='Vamos Conversar'
               icon={<MdKeyboardArrowRight className='text-xl' />}
-              classes=' flex items-center gap-1 text-[14px] has:pr-3 h-11 w-[176px] px-5 bg-sky-400 hover:bg-sky-700 transition-all duration-200 active:bg-sky-400 rounded-md font-semibold bg-sky-800 text-zinc-300'
+              classes=' flex items-center gap-1 text-[14px] has:pr-3 h-11 w-44 px-5 bg-sky-400 hover:bg-sky-700 transition-all duration-200 active:bg-sky-400 rounded-md font-semibold bg-sky-800 text-zinc-300'
             />
           </div>
 
