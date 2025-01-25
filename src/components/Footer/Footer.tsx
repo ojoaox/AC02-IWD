@@ -25,15 +25,15 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org',
+    href: 'https://github.com/Guilherme-Rigobello',
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee',
+    href: 'https://www.linkedin.com/in/guilhermerigobello-/',
   },
   {
-    label: 'Gmail',
-    href: 'https://www.linkedin.com/in/codewithsadee',
+    label: 'Email',
+    href: 'mailto:grigobello@proton.me',
   },
 ];
 
