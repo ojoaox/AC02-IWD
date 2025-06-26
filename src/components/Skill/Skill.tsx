@@ -9,6 +9,8 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
+  FaPython,
+  FaHtml5,
 } from 'react-icons/fa';
 import {
   SiMongodb,
@@ -16,6 +18,8 @@ import {
   SiMysql,
   SiTypescript,
   SiBootstrap,
+  SiAdobeillustrator,
+  SiNextdotjs,
 } from 'react-icons/si';
 import { IconType } from 'react-icons';
 
@@ -34,10 +38,28 @@ const skillItem: Skill[] = [
     color: 'text-[#ff7262]',
   },
   {
+    Icon: SiAdobeillustrator,
+    label: 'Adobe Illustrator',
+    desc: 'Vector graphics',
+    color: 'text-[#ff9a00]',
+  },
+  {
+    Icon: FaHtml5,
+    label: 'HTML',
+    desc: 'Markup language',
+    color: 'text-[#e34c26]',
+  },
+  {
     Icon: FaCss3Alt,
     label: 'CSS',
     desc: 'User Interface',
     color: 'text-[#4a90e2]',
+  },
+  {
+    Icon: FaPython,
+    label: 'Python',
+    desc: 'Programming language',
+    color: 'text-[#3776ab]',
   },
   {
     Icon: FaJsSquare,
@@ -68,6 +90,12 @@ const skillItem: Skill[] = [
     label: 'React',
     desc: 'Framework',
     color: 'text-[#61dafb]',
+  },
+  {
+    Icon: SiNextdotjs,
+    label: 'Next.js',
+    desc: 'React Framework',
+    color: 'text-[#fff]',
   },
   {
     Icon: SiTailwindcss,
@@ -109,7 +137,7 @@ const Skill = () => {
           Tecnologias & Tools
         </h2>
         <p className='text-zinc-400 mt-3 mb-8 max-w-[50ch]'>
-          Ferramentas e tecnologias que utilizo para criar projetos e
+          Ferramentas e tecnologias que utilizamos para criar projetos e
           aplicativos com o melhor desempenho possível.
         </p>
 

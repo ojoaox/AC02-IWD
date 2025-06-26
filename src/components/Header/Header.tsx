@@ -40,7 +40,7 @@ const Header = () => {
           href='#contact'
           className='max-w-max h-11 flex items-center gap-2 px-7 rounded-3xl font-semibold text-sm ring-1 ring-zinc-50/5 ring-inset max-md:hidden md:justify-self-end bg-zinc-50/10 text-zinc-300 hover:translate-y-[-2px] transition-all duration-300 active:bg-zinc-50/80'
         >
-          Me Contate
+          Nos Contate
           <span className='text-lg'>
             <BiSolidMessageAltDetail />
           </span>

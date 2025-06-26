@@ -1,10 +1,10 @@
 // IMPORT IMG'S
-import project1 from '../../../public/work/e-commerce.png';
+import project1 from '../../../public/work/ecoleaf-project.png';
 import project2 from '../../../public/work/weather-forecast.png';
 import project3 from '../../../public/work/films-lib.png';
 import project4 from '../../../public/work/github-locator.png';
 import project5 from '../../../public/work/cristal-terapias.png';
-import project6 from '../../../public/work/syncro.png';
+import project6 from '../../../public/work/e-commerce.png';
 
 // COMPONENTS
 import ProjectCard from './ProjectCard';
@@ -19,9 +19,9 @@ interface Works {
 const worksItem: Works[] = [
   {
     imgSrc: project1,
-    title: 'Curve eCommerce',
-    tags: ['React', 'Tailwind', 'E-Commerce'],
-    projectLink: 'https://github.com/Guilherme-Rigobello/curve-ecommerce',
+    title: 'Ecoleaf Project',
+    tags: ['Node.js', 'Bootstrap', 'CRUD'],
+    projectLink: 'https://github.com/vbzt/EcoLeaf',
   },
   {
     imgSrc: project3,
@@ -51,9 +51,9 @@ const worksItem: Works[] = [
 
   {
     imgSrc: project6,
-    title: 'Syncro',
-    tags: ['ReactJS', 'CRUD'],
-    projectLink: 'https://github.com/Guilherme-Rigobello/syncro',
+    title: 'Curve eCommerce',
+    tags: ['React', 'Tailwind', 'E-Commerce'],
+    projectLink: 'https://github.com/Guilherme-Rigobello/curve-ecommerce',
   },
 ];
 

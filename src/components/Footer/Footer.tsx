@@ -11,7 +11,7 @@ const sitemap = [
     href: '#home',
   },
   {
-    label: 'Sobre Mim',
+    label: 'Sobre Nós',
     href: '#about',
   },
   {
@@ -24,7 +24,7 @@ const sitemap = [
   },
 ];
 
-const socials = [
+const socialsG = [
   {
     label: 'GitHub',
     href: 'https://github.com/Guilherme-Rigobello',
@@ -36,6 +36,21 @@ const socials = [
   {
     label: 'Email',
     href: 'mailto:grigobello@proton.me',
+  },
+];
+
+const socialsJ = [
+  {
+    label: 'GitHub',
+    href: 'https://github.com/ojoaox',
+  },
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/ojoaox/',
+  },
+  {
+    label: 'Email',
+    href: 'mailto:souzajoaovictor555@gmail.com',
   },
 ];
 
@@ -58,7 +73,7 @@ const Footer = () => {
             />
           </div>
 
-          <div className='grid grid-cols-2 gap-4 lg:pl-20 lg:mt-4'>
+          <div className='grid grid-cols-3 gap-4 lg:pl-20 lg:mt-4'>
             <div className=''>
               <p className='mb-2'>Sitemap</p>
               <ul>
@@ -75,9 +90,26 @@ const Footer = () => {
               </ul>
             </div>
             <div className=''>
-              <p className='mb-2'>Redes</p>
+              <p className='mb-2'>Guilherme</p>
               <ul>
-                {socials.map(({ label, href }, key) => (
+                {socialsG.map(({ label, href }, key) => (
+                  <li key={key}>
+                    <a
+                      href={href}
+                      className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'
+                      target='_blanck'
+                      rel='noopener noreferrer'
+                    >
+                      {label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className=''>
+              <p className='mb-2'>João Victor</p>
+              <ul>
+                {socialsJ.map(({ label, href }, key) => (
                   <li key={key}>
                     <a
                       href={href}
@@ -97,7 +129,7 @@ const Footer = () => {
         <div className='flex items-center justify-between pt-10 mb-8'>
          
           <p className='text-zinc-500 text-sm font-semibold'>
-            &copy; 2025 <span className='text-zinc-300'>grigobello</span>
+            &copy; 2025 <span className='text-zinc-300'>João Victor & Guilherme Rigobello</span>
           </p>
           <a href=''>
             <img

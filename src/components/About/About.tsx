@@ -5,7 +5,7 @@ import logo from '../../../public/logo/logo.svg'
 const aboutItems = [
   {
     label: 'Projetos',
-    string: '7+',
+    string: '10+',
   },
   {
     label: 'Médio Técnico na FIAP',
@@ -22,11 +22,8 @@ const About = () => {
       <div className='container mx-4'>
         <div className='bg-zinc-800/50 p-7 rounded-md md:p-12 max-w-[1100px] mx-auto reveal-up'>
           <p className='text-zinc-300 mb-8 md:mb-12 md:text-lg md:max-w-[60ch]'>
-            Mais de 1 ano sempre aprendendo e criando projetos para aprimorar
-            minhas habilidades, com grande foco nas Soft Skills, essencial no
-            meio corporativo. Atualmente estou cursando o ensino médio técnico
-            na FIAP School, além disso, ao decorrer dos anos, acredito que
-            demostrei meus maiores interesses em Back-End, como SQL e NoSQL.
+            Somos dois desenvolvedores passionados pela tecnologia e criação: um com foco em Back-End, sempre explorando bancos de dados como SQL e NoSQL, e outro especializado em Front-End e design gráfico, com experiência em React, Tailwind e ferramentas como Figma. Unimos nossos conhecimentos técnicos e soft skills para desenvolver projetos completos, que combinam funcionalidade, estética e colaboração eficiente.
+
           </p>
 
           <div className='flex flex-wrap items-center gap-5 md:gap-7 md:mb-2 '>
