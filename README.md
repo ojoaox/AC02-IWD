@@ -1,2 +1,2 @@
-# 🖼 My Portfolio
+# -- Our Portfolio --  
 Portfolio, repositórios, nossas infos e mais.
