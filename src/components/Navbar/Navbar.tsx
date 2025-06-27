@@ -62,7 +62,7 @@ const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
 
   return (
     <nav
-      className={`absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-800 rounded-md ring-inset ring-1 ring-zinc-50/5 transition-transform transform md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible ${
+      className={`absolute top-full mt-2 right-0 min-w-40 p-2 bg-neutral-800 rounded-md ring-inset ring-1 ring-neutral-50/5 transition-transform transform md:static md:flex md:items-center md:mt-0 md:opacity-100 md:blur-0 md:visible ${
         navOpen
           ? 'opacity-100 scale-100 visible'
           : 'opacity-0 scale-90 invisible'
@@ -73,7 +73,7 @@ const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
           <li key={index} className='flex'>
             <a
               href={item.link}
-              className={`nav-link grid items-center h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/70 hover:text-zinc-50 transition-colors`}
+              className={`nav-link grid items-center h-9 px-4 text-sm font-medium tracking-wide text-neutral-50/70 hover:text-neutral-50 transition-colors`}
               ref={index === 0 ? lastActiveLink : undefined}
               onClick={activeCurrentLink}
             >
@@ -83,7 +83,7 @@ const Navbar = ({ navOpen = false }: { navOpen?: boolean }) => {
         ))}
       </ul>
       <div
-        className='active-box absolute bg-zinc-700 -z-10 h-9 transition-[top,left,width,height] duration-500 rounded-md text-black'
+        className='active-box absolute bg-neutral-700 -z-10 h-9 transition-[top,left,width,height] duration-500 rounded-md text-black'
         ref={activeBox}
       ></div>
     </nav>

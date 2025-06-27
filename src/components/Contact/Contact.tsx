@@ -145,7 +145,7 @@ const Contact = () => {
                   href={href}
                   target='_blanck'
                   rel='noopener noreferrer'
-                  className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80'
+                  className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] duration-200 hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80'
                 >
                   {icon}
                 </a>
@@ -159,7 +159,7 @@ const Contact = () => {
                   href={href}
                   target='_blanck'
                   rel='noopener noreferrer'
-                  className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80'
+                  className='w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] duration-200 hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80'
                 >
                   {icon}
                 </a>
@@ -186,8 +186,8 @@ const Contact = () => {
                 name='name'
                 autoComplete='name'
                 required
-                placeholder='João...'
-                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-sky-400 focus:ring-2 placeholder:text-zinc-400'
+                placeholder='Daniel'
+                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-green-400 focus:ring-2 placeholder:text-zinc-400'
               />
             </div>
             <div className='mb-4'>
@@ -202,8 +202,8 @@ const Contact = () => {
                 id='text'
                 name='nickname'
                 autoComplete='family-name'
-                placeholder='Da Silva'
-                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-sky-400 focus:ring-2 placeholder:text-zinc-400'
+                placeholder='Pereira'
+                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-green-400 focus:ring-2 placeholder:text-zinc-400'
               />
             </div>
             <div className='mb-4'>
@@ -219,8 +219,8 @@ const Contact = () => {
                 name='email'
                 autoComplete='email'
                 required
-                placeholder='joao@email.com'
-                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-sky-400 focus:ring-2 placeholder:text-zinc-400'
+                placeholder='exemplo@email.com'
+                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-green-400 focus:ring-2 placeholder:text-zinc-400'
               />
             </div>
             <div className='mb-4'>
@@ -236,8 +236,8 @@ const Contact = () => {
                 name='tel'
                 autoComplete='tel'
                 required
-                placeholder='+5511123456789'
-                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-sky-400 focus:ring-2 placeholder:text-zinc-400'
+                placeholder='+55 (11) 12345-6789'
+                className='block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-green-400 focus:ring-2 placeholder:text-zinc-400'
               />
             </div>
 
@@ -253,15 +253,15 @@ const Contact = () => {
             <textarea
               name='message'
               id='message'
-              placeholder='Olá!'
+              placeholder='Mensagem...'
               required
-              className='resize-y max-h-44 min-h-32 block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-sky-400 focus:ring-2 placeholder:text-zinc-400'
+              className='resize-y max-h-44 min-h-32 block outline-none w-full p-3 text-sm bg-zinc-800 rounded-sm ring-1 ring-inset ring-transparent transition-shadow hover:ring-50/5 focus:ring-green-400 focus:ring-2 placeholder:text-zinc-400'
             ></textarea>
           </div>
 
           <button
             type='submit'
-            className='flex items-center justify-center gap-1.5 text-[14px] has:pr-3 h-9 px-5 bg-sky-800 text-zinc-50 hover:bg-sky-700 transition-all duration-200 active:bg-sky-400 rounded-sm font-semibold w-full'
+            className='flex items-center justify-center gap-1.5 text-[14px] has:pr-3 h-9 px-5 bg-green-800 text-zinc-50 hover:bg-green-700 transition-all duration-200 active:bg-green-400 rounded-sm font-semibold w-full'
           >
             Enviar <IoIosSend />
           </button>

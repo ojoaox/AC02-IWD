@@ -16,7 +16,7 @@ const ProjectCard = ({
   projectLink,
 }: ProjectCardProps) => {
   return (
-    <div className='relative p-4 rounded-2xl bg-zinc-800 hover:bg-zinc-700/50 active:bg-zinc-700/60 cursor-pointer ring-1 ring-inset ring-zinc-50/5 transition-colors'>
+    <div className='relative p-4 rounded-2xl bg-neutral-800 hover:bg-neutral-700/50 active:bg-neutral-700/60 cursor-pointer ring-1 ring-inset ring-neutral-50/5 transition-colors'>
       <figure className='mb-4'>
         <img
           src={imgSrc}
@@ -32,7 +32,7 @@ const ProjectCard = ({
           <div className='flex flex-wrap items-center gap-2'>
             {tags.map((label, key) => (
               <span
-                className='h-8 text-sm text-zinc-400 bg-zinc-50/5 grid items-center px-3 rounded-lg'
+                className='h-8 text-sm text-neutral-400 bg-neutral-50/5 grid items-center px-3 rounded-lg'
                 key={key}
               >
                 {label}
@@ -44,7 +44,7 @@ const ProjectCard = ({
           href={projectLink}
           target='_blank'
           rel='noopener noreferrer'
-          className='w-11 h-11 rounded-full grid place-items-center bg-sky-800 text-zinc-200 hover:scale-110 transition-all'
+          className='w-11 h-11 rounded-full grid place-items-center bg-green-800 text-neutral-200 hover:scale-110 transition-all'
         >
           <span aria-hidden='true' className='text-2xl'>
             <FiArrowUpRight />

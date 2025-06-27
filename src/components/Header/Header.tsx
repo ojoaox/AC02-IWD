@@ -11,7 +11,7 @@ const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <header className='fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-zinc-900 border-b border-zinc-800 max-md:px-1'>
+    <header className='fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-stone-900 border-b border-stone-800 max-md:px-1'>
       <div className='max-w-[1150px] w-full mx-auto px-4 flex justify-between items-center md:px-6'>
         <h1>
           <a href='#home'>
@@ -40,7 +40,7 @@ const Header = () => {
           href='#contact'
           className='max-w-max h-11 flex items-center gap-2 px-7 rounded-3xl font-semibold text-sm ring-1 ring-zinc-50/5 ring-inset max-md:hidden md:justify-self-end bg-zinc-50/10 text-zinc-300 hover:translate-y-[-2px] transition-all duration-300 active:bg-zinc-50/80'
         >
-          Nos Contate
+          Entre em Contato
           <span className='text-lg'>
             <BiSolidMessageAltDetail />
           </span>

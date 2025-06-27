@@ -28,7 +28,7 @@ const Hero = () => {
               label='Ver mais'
               href='#work'
               icon={<FaArrowDown />}
-              classes=' flex items-center gap-2 text-[14px] has:pr-3 h-11 px-5 bg-sky-700 text-zinc-50 hover:bg-sky-800 transition-all duration-200 active:bg-zinc-800 rounded-md font-medium'
+              classes=' flex items-center gap-2 text-[14px] has:pr-3 h-11 px-5 bg-green-700 text-zinc-50 hover:bg-green-800 transition-all duration-200 active:bg-zinc-800 rounded-md font-medium'
             />
           </div>
         </div>
